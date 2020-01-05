@@ -1,0 +1,4 @@
+baseURL = "https://t-kl.github.io/"
+languageCode = "en-us"
+title = "Tom's very own"
+theme = "ananke"
