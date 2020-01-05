@@ -15,24 +15,10 @@ Make sure to name the repository ```<user>.github.io```.
 
 # Install Hugo
 * [Quick Start](https://gohugo.io/getting-started/quick-start)
+* [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
-# Clone Repository
-We want to push the generated files in ```public``` to _GitHub_.
-Thus we clone the repository in there:
+## Deployment
+Run this shell-script to deploy the generated page:
 ```
-git clone https://github.com/<user>/<user>.github.io.git public
-```
-
-# Generate new static site
-With the following command a new version is generated:
-```
-hugo
-```
-
-# Publish content to _GitHub_
-Now the changes can be added and pushed to _GitHub_:
-```
-git -C public add --all
-git -C public commit -m "<write a meaningful commit message>"
-git -C public push
+bash deploy.sh
 ```
